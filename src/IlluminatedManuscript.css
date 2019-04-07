@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Kingthings';
+  src: url('/fonts/Kingthings_Italique.ttf') format('truetype');
+}
+
+.illuminated-manuscript {
+  font-family: 'Kingthings';
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-align: left;
+  padding: 5vw;
+  color: #6f5003;
+}
+
+@media only screen and (min-width : 450px) {
+  .illuminated-manuscript {
+    font-size: 8vw;
+  }
+}
+
+
+.illuminated-manuscript .script {
+  text-align: left;
+}
+
+/* body { */
+  /* background: url('/images/seamless-paper.jpg'); */
+  
+/* } */

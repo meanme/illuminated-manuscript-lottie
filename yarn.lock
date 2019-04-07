@@ -5931,6 +5931,11 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lottie-web@^5.5.0:
+  version "5.5.0"
+  resolved "https://artifacts.netflix.com/api/npm/npm-netflix/lottie-web/-/lottie-web-5.5.0.tgz#a9e31993838bb18e7fe4c0a0c8024a6d611ff329"
+  integrity sha1-qeMZk4OLsY5/5MCgyAJKbWEf8yk=
+
 lower-case@^1.1.1:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
@@ -7925,7 +7930,7 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.6:
+react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://artifacts.netflix.com/api/npm/npm-netflix/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha1-cdYwP2MeiwCX9WFl72CPBR/24Q8=
@@ -7999,7 +8004,7 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.8.6:
+react@^16.8.6:
   version "16.8.6"
   resolved "https://artifacts.netflix.com/api/npm/npm-netflix/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha1-rWw6lhT9Ok6e9REX9U2IjaAfK74=
@@ -8392,10 +8397,17 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@^6.1.0, rxjs@^6.4.0:
+rxjs@^6.1.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.4.0.tgz#f3bb0fe7bda7fb69deac0c16f17b50b0b8790504"
   integrity sha512-Z9Yfa11F6B9Sg/BK9MnqnQ+aQYicPLtilXBp2yUtDt2JRCE0h26d33EnfO3ZxoNxG0T92OUucP3Ct7cpfkdFfw==
+  dependencies:
+    tslib "^1.9.0"
+
+rxjs@^6.4.0:
+  version "6.4.0"
+  resolved "https://artifacts.netflix.com/api/npm/npm-netflix/rxjs/-/rxjs-6.4.0.tgz#f3bb0fe7bda7fb69deac0c16f17b50b0b8790504"
+  integrity sha1-87sP572n+2nerAwW8XtQsLh5BQQ=
   dependencies:
     tslib "^1.9.0"
 
